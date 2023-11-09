@@ -79,7 +79,7 @@ h3:hover{
     color: #fd8300;
 }
 .proposition{
-    background: url(../image/image.webp) no-repeat center/cover;   
+    background: url("../image/image.webp") no-repeat center/cover;   
     background-color: #24242b;
     width: 100%;
     padding:60px 0px 44px    
