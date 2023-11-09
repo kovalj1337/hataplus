@@ -121,7 +121,7 @@ h3:hover{
 }
 .socialki a{
     display: block;
-    background: url(../image/niki.png) no-repeat;
+    background: url("../image/niki.png") no-repeat;
 }
 a.facebook{
     width: 11px;
