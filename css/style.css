@@ -79,7 +79,7 @@ h3:hover{
     color: #fd8300;
 }
 .proposition{
-    background: url("../image/image.webp") no-repeat center/cover;   
+    background: url(../image/image.webp) no-repeat center/cover;   
     background-color: #24242b;
     width: 100%;
     padding:60px 0px 44px    
@@ -121,7 +121,7 @@ h3:hover{
 }
 .socialki a{
     display: block;
-    background: url("../image/niki.png") no-repeat;
+    background: url(../image/niki.png) no-repeat;
 }
 a.facebook{
     width: 11px;
