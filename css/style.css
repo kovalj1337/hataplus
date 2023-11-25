@@ -54,7 +54,7 @@ h3:hover {
 }
 
 .topline {
-    padding: 23px 19px;
+    padding: 15.5px 19px;
     color: #b1b1d2;
     background-color: #1f1f56;
 }
@@ -379,8 +379,8 @@ a.instagram:hover {
     right: 15px;
     width: 8px;
     height: 8px;
-    border-bottom: 2px solid #666666;
-    border-left: 2px solid #666666;
+    border-bottom: 1px solid #666666;
+    border-left: 1px solid #666666;
     transform: translateY(-50%) rotate(-135deg);
     transition: all 1s ease;
 }
