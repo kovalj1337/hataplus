@@ -1,38 +1,31 @@
-body {
+body{
     margin: 0;
     font-family: "Arial";
 }
-
-a {
+a{
     text-decoration: none;
 }
-
-ul {
+ul{
     list-style: none;
 }
-
-p {
+p{
     margin: 0;
 }
-
-sup {
+sup{
     font-size: 13px;
 }
-
-h1 {
+h1{
     margin: 0px;
     font-size: 30px;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
 }
-
-hr {
+hr{
     border: none;
     border-top: 1px solid #e4e4ec;
 }
-
-h2 {
+h2{
     font-size: 24px;
     line-height: 1em;
     color: #24242b;
@@ -40,75 +33,63 @@ h2 {
     font-family: "Roboto Slab";
     margin-bottom: 24px;
 }
-
-h3 {
+h3{
     font-size: 14px;
     line-height: 1.7em;
     color: #1f1f56;
     font-weight: bold;
     margin: 15px 0px 9px;
 }
-
-h3:hover {
+h3:hover{
     text-decoration: underline;
 }
-
-.topline {
+.topline{
     padding: 23px 19px;
     color: #b1b1d2;
     background-color: #1f1f56;
 }
-
-.wrapper {
+.wrapper{
     max-width: 960px;
     margin: 0 auto;
 }
-
-.display-flex {
+.display-flex{
     display: flex;
     justify-content: space-between;
 }
-
-.menu {
+.menu{
     padding: 0;
     margin: 0;
 }
-
-.navigation {
+.navigation{
     display: flex;
     justify-content: space-between;
     color: #b1b1d2;
 }
-
-.text-navigation a {
+.text-navigation a{
     font-size: 14px;
     letter-spacing: 2px;
     line-height: 24px;
     color: #b1b1d2;
     transition: all .3s ease;
 }
-
-.text-navigation li:hover>a {
+.text-navigation li:hover > a{
     font-size: 14px;
     letter-spacing: 2px;
     line-height: 24px;
     color: #fd8300;
 }
-
-.proposition {
-    background: url(../image/image.webp) no-repeat center/cover;
+.proposition{
+    background: url(../image/image.webp) no-repeat center/cover;   
     background-color: #24242b;
     width: 100%;
-    padding: 60px 0px 44px
+    padding:60px 0px 44px    
 }
-
-.proposition-info {
+.proposition-info{
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
-.proposition-one {
+.proposition-one{
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -117,109 +98,139 @@ h3:hover {
     text-align: center;
     font-family: "Roboto Slab";
 }
-
-.price {
+.price{
     font-size: 24px;
     line-height: 1em;
     color: #fd8300;
     font-weight: bold;
     text-align: center;
 }
-
-.price b {
+.price b{
     font-size: 40px;
 }
-
-.descript-proposition {
+.descript-proposition{
     font-size: 14px;
     line-height: 1.7em;
     color: #ffffff;
     text-align: center;
     margin: 10px 0px;
 }
-
 .socialki,
-.text-navigation {
+.text-navigation,
+.socialkidva{
     column-gap: 25px;
 }
-
-.socialki a {
+.socialki a{
     display: block;
     background: url(../image/niki.png) no-repeat;
 }
-
-a.facebook {
+.socialkidva a{
+    display: block;
+    background: url(../image/nikidva.png) no-repeat;
+}
+a.facebook{
     width: 11px;
     height: 19px;
-    background-position: -2px -2px;
+    background-position: -2px -2px;  
     transition: all .3s ease;
 }
-
-a.facebook:hover {
+a.facebook:hover{
     width: 11px;
     height: 19px;
     background-position: -0px -24px;
 }
-
-a.twiter {
+a.twiter{
     width: 19px;
     height: 16px;
     background-position: -15px -2px;
     transition: all .3s ease;
 }
-
-a.twiter:hover {
+a.twiter:hover{
     width: 19px;
     height: 16px;
     background-position: -13px -24px;
 }
-
-a.instagram {
+a.instagram{
     width: 20px;
     height: 20px;
     background-position: -36px -2px;
     transition: all .3s ease;
 }
-
-a.instagram:hover {
+a.instagram:hover{
     width: 20px;
     height: 20px;
     background-position: -34px -24px;
 }
-
-.contacts-header {
+.phone,
+.email,
+.skype{
+    position: relative;
+}
+.contacts p:first-child,
+.masenger p:first-child{
+    margin-bottom: 5px;
+}
+.phone::before,
+.email::before,
+.skype::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left: -30px;
+    background: url(../image/niki.png) no-repeat; 
+}
+.phone::before{
+    width: 17px;
+    height: 17px;
+    background-position: -58px -2px;    
+}
+.email::before{
+    width: 18px;
+    height: 13px;
+    background-position: -78px -2px;    
+}
+.skype::before{
+    width: 19px;
+    height: 19px;
+    background-position: -98px -2px;
+}
+.contacts-header{
     padding: 36px 0px 24px;
+    align-items: center;
 }
-
-.contacts p,
-.masenger p {
-    margin-bottom: 12px;
-}
-
-.contacts a {
+.contacts a{
     font-size: 18px;
     line-height: 1.3em;
     color: #25252c;
     font-weight: bold;
 }
-
-.masenger a {
+.masenger a{
     font-size: 16px;
     line-height: 1.5em;
     color: #25252c;
 }
-
-.email {
+.border{
+    position: relative;
+    padding-left: 30px;
+}
+.border:before{
+    content: "";
+    position: absolute  ;
+    top: 0;
+    left: -30px;
+    width: 1px;
+    height: 51px;
+    background-color: #ccc;
+}
+.email{
     text-decoration: underline;
 }
-
-.btm {
+.btm{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.btm a {
+.btm a{
     font-size: 16px;
     line-height: 1.5em;
     color: #25252c;
@@ -230,20 +241,17 @@ a.instagram:hover {
     background-color: #ffffff;
     border: 2px solid #fd8300;
 }
-
-.main {
+.main{
     padding: 42px 0 46px;
     column-gap: 27px;
 }
-
-.main-text p {
+.main-text p{
     font-size: 14px;
     line-height: 1.7em;
     color: #666666;
     margin: 20px 0px
 }
-
-.main-text a {
+.main-text a{
     margin: 5px 0px 33px 0px;
     font-size: 14px;
     line-height: 1.7em;
@@ -251,27 +259,22 @@ a.instagram:hover {
     color: #fd8300;
     font-weight: bold;
 }
-
-.house p {
+.house p{
     font-size: 13px;
     line-height: 1.3em;
     color: #9999a6;
 }
-
-.house image {
+.house image{
     width: 100%;
 }
-
-.gapforhouse {
+.gapforhouse{
     column-gap: 24px;
 }
-
-.aside-menu {
+.aside-menu{
     width: 100%;
     border-radius: 3px;
 }
-
-.head-menu {
+.head-menu{
     font-size: 16px;
     line-height: 1.5em;
     color: #ffffff;
@@ -280,7 +283,6 @@ a.instagram:hover {
     background-color: #1f1f56;
     padding: 12px 16px;
 }
-
 .aside-menu-a {
     font-size: 14px;
     line-height: 1.7em;
@@ -288,11 +290,10 @@ a.instagram:hover {
     display: block;
     background-color: #e4e4ec;
     padding: 11px 16px;
-    border-bottom: 1px solid #cdcddd;
+    border-bottom:1px solid #cdcddd;
     position: relative;
 }
-
-.aside-menu-a:after {
+.aside-menu-a:after{
     content: "";
     position: absolute;
     top: 50%;
@@ -304,26 +305,22 @@ a.instagram:hover {
     transform: translateY(-50%) rotate(-135deg);
     transition: all 1s ease;
 }
-
-.aside-menu-a:hover::after {
+.aside-menu-a:hover::after{
     border-bottom: 2px solid #ffffff;
     border-left: 2px solid #ffffff;
     transform: translateY(-50%) rotate(-45deg);
 }
-
-.aside-menu-a:hover {
+.aside-menu-a:hover{
     font-size: 14px;
     line-height: 1.7em;
     color: #ffffff;
     background-color: #fd8300;
 }
-
-.sub-menu {
+.sub-menu{
     visibility: hidden;
     max-height: 0;
 }
-
-.sub-menu a {
+.sub-menu a{
     display: block;
     padding: 11px 31px;
     font-size: 14px;
@@ -332,46 +329,38 @@ a.instagram:hover {
     background-color: #e4e4ec;
     border: none;
 }
-
-.side-bar li:hover .sub-menu {
+.side-bar li:hover .sub-menu{
     visibility: visible;
     max-height: 1000px;
     transition: max-height 3s ease;
 }
-
-.sub-menu a:hover {
+.sub-menu a:hover{
     background-color: #cecedd;
     color: #666666;
 }
-
-.footer-top {
+.footer-top{
     background-color: #ededf5;
 }
-
-.information a {
+.information a{
     font-size: 14px;
     line-height: 1.8em;
     color: #666666;
     transition: all 1s ease;
 }
-
-.information ul>li:hover a {
+.information ul > li:hover a{
     color: #fd8300;
     text-decoration: underline;
 }
-
-.bottom-contacts {
+.bottom-contacts{
     padding: 42px 0px 29px;
 }
-
-.footer-bottom {
+.footer-bottom{
     background-color: #dcdce6;
 }
-
-.footer-bottom>p {
+.footer-bottom > p{
     text-align: center;
     font-size: 13px;
     line-height: 18px;
     color: #9999a6;
-    padding: 18px 0px 15px;
+    padding:18px 0px 15px;
 }
