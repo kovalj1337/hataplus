@@ -72,10 +72,11 @@ h3:hover {
     text-decoration: underline;
 }
 header{
+    box-shadow: 0 0 7px 5px rgba(0,0,0,0.1);
     padding-top: 55px;
 }
 .topline {
-    padding: 15.5px 19px;
+    padding: 15.5px 0;
     color: #b1b1d2;
     background-color: #1f1f56;
     position: fixed;
