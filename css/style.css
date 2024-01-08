@@ -72,6 +72,7 @@ h3:hover {
     text-decoration: underline;
 }
 table{
+    overflow: hidden;
     border-radius: 3px;
     width: 100%;
     border-collapse:collapse
@@ -107,14 +108,17 @@ th:first-child{
 td:nth-child(2),
 td:nth-child(3),
 td:nth-child(4){
-    text-align: center;
+    text-align: left;
 }
 th:nth-child(2),
 th:nth-child(3),
 th:nth-child(4),
 th:nth-child(5),
 td:last-child{
-    text-align: right;
+    text-align: left;
+}
+tbody > tr > td:first-child{
+    padding-right: 110px;
 }
 .table-hover tr:hover{
     color: #ffffff;
@@ -359,8 +363,12 @@ a.instagram:hover {
     border-radius: 25px;
     background-color: #ffffff;
     border: 2px solid #fd8300;
+    transition: all 1s ease;
 }
-
+.btm a:hover{
+    color: #fff;
+    background-color: #fd8300;
+}
 .main {
     padding: 42px 0 46px;
     column-gap: 27px;
@@ -416,7 +424,7 @@ a.instagram:hover {
 }
 
 .aside-menu {
-    z-index: 3;
+    min-width: 220px;
     position: sticky;
     top: 55px;
     width: 100%;
@@ -539,11 +547,16 @@ a.instagram:hover {
     padding: 40px 0px 26px;
 }
 .main-first a{
+    display: inline-block;
     padding-top: 24px;
     font-weight: bold;
     text-decoration: underline;
     color: #fd8300;
+    transition: all 1s ease;
 }
-.projects{
-    padding-bottom: 46px;
+.main-first a:hover{
+    color: #24242b;
+}
+.hr{
+    padding-top: 24px;
 }
