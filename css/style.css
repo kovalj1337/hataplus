@@ -52,6 +52,8 @@ hr {
 }
 
 h2 {
+    padding-top: 23px;
+    margin: 0px;
     font-size: 24px;
     line-height: 1em;
     color: #24242b;
@@ -311,7 +313,7 @@ a.instagram:hover {
 }
 
 .contacts-header {
-    padding: 36px 0px 24px;
+    padding: 36px 0px 34px;
     align-items: center;
 }
 
@@ -379,6 +381,9 @@ a.instagram:hover {
     line-height: 1.7em;
     color: #666666;
     margin: 20px 0px
+}
+.main-text p:last-child{
+    padding-bottom: 13px;
 }
 
 .main-text a {
