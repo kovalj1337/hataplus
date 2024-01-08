@@ -71,9 +71,54 @@ h3 {
 h3:hover {
     text-decoration: underline;
 }
+table{
+    border-radius: 3px;
+    width: 100%;
+    border-collapse:collapse
+}
 header{
     box-shadow: 0 0 7px 5px rgba(0,0,0,0.1);
     padding-top: 55px;
+}
+thead{
+    background-color: #1f1f56;
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #ffffff;
+}
+tbody{
+    font-size: 14px;
+    line-height: 1.7em;
+    background-color: #e4e4ec;
+    color: #666666;
+}
+th{
+    padding: 19px 20px 13px 21px;
+}
+td{
+    padding: 16px 19px 15px 21px;
+}
+td{
+    border-top: 1px solid #cecedd;
+}
+th:first-child{
+    text-align: left;
+}
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4){
+    text-align: center;
+}
+th:nth-child(2),
+th:nth-child(3),
+th:nth-child(4),
+th:nth-child(5),
+td:last-child{
+    text-align: right;
+}
+.table-hover tr:hover{
+    color: #ffffff;
+    background-color: #fd8300;
 }
 .topline {
     padding: 15.5px 0;
@@ -481,4 +526,24 @@ a.instagram:hover {
     line-height: 18px;
     color: #9999a6;
     padding: 18px 0px 15px;
+}
+.main-first p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+.main-first h1{
+    padding-bottom: 22px;
+}
+.main-first{
+    padding: 40px 0px 26px;
+}
+.main-first a{
+    padding-top: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fd8300;
+}
+.projects{
+    padding-bottom: 46px;
 }
