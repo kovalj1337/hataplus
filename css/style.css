@@ -581,3 +581,10 @@ a.instagram:hover {
     position: relative;
     top: -1px;
 }
+input,
+textarea{
+    border: 1px solid #c5c5d4;
+    padding: 16px 16px 15px 16px;
+    outline: none;
+    text-align: left;
+}
