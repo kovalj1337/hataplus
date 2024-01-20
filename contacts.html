@@ -55,7 +55,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="wrapper">
         <div>
             <h1>Контакти</h1>
             <div>
@@ -85,18 +85,32 @@
                 <iframe src="https://www.google.com/maps/d/embed?mid=1V4fdqh5PA_GN0aEWC_IU9mk0lazFLuw&ehbc=2E312F"></iframe>
             </div>
             <div class="zvyazok">
-                <input type="text" id="name" placeholder="Ваше ім’я">
-                <label for="name"></label>
-                <input type="text" id="number" placeholder="Телефон">
-                <label for="number" ></label>
-                <input type="text" id="theme" placeholder="Тема повідомлення">
-                <label for="theme" ></label>
-                <textarea name="text-area" id="text" cols="30" rows="10" placeholder="Текст"></textarea>
-                <label for="text-area"></label>
-                <input type="submit" id="bottom-submit">
-                <label for="bottom-submit"></label>
-                <input type="checkbox" id="news">
-                <label for="news"></label>
+                <div class="zvyazok-first display-flex">
+                    <div>
+                        <input type="text" id="name" placeholder="Ваше ім’я">
+                        <label for="name"></label>
+                    </div>
+                    <div>
+                        <input type="text" id="number" placeholder="Телефон">
+                        <label for="number" ></label>
+                    </div>
+                </div>
+                <div>
+                    <input type="text" id="theme" placeholder="Тема повідомлення">
+                    <label for="theme" ></label>
+                </div>
+                <div>
+                    <textarea name="text-area" id="text" cols="30" rows="10" placeholder="Текст"></textarea>
+                </div>
+                <div class="display-flex">
+                    <div>
+                        <button type="submit">Відправити</button>
+                    </div>
+                    <div class="news">
+                        <input type="checkbox" id="news">
+                        <label for="news">Я бажаю отримувати останні новини</label>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
