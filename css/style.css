@@ -125,6 +125,13 @@ td:last-child{
 tbody > tr > td:first-child{
     padding-right: 110px;
 }
+input,
+textarea{
+    border: 1px solid #c5c5d4;
+    padding: 16px 16px 15px 16px;
+    outline: none;
+    text-align: left;
+}
 .table-hover tr:hover{
     color: #ffffff;
     background-color: #fd8300;
@@ -580,11 +587,4 @@ a.instagram:hover {
     height: 299px;
     position: relative;
     top: -1px;
-}
-input,
-textarea{
-    border: 1px solid #c5c5d4;
-    padding: 16px 16px 15px 16px;
-    outline: none;
-    text-align: left;
 }
