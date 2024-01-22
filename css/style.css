@@ -630,9 +630,18 @@ a.instagram:hover {
     width: 100%;
     box-sizing: border-box;
 }
+.news input{
+    display: none;
+}
+.news{
+    align-items: center;
+}
+.news div{
+    width: 15px;
+    height: 15px;
+}
 .news input + label{
     position: relative;
-    padding: 10px;
 }
 .news input + label::before {
     content: "";
@@ -645,7 +654,7 @@ a.instagram:hover {
 }
 .news input:checked + label::before {
     content: "";
-    background-color: #ccc;
+    border: 1px solid #c5c5d4;
 }
 .news input:checked + label::after {
     content: "";
@@ -653,7 +662,7 @@ a.instagram:hover {
     top: 0;
     left: 50%;
     width: 5px;
-    height: 10px;
+    height: 8px;
     border-top: 2px solid #1f1f56;
     border-left: 2px solid #1f1f56;
     transform: translateX(-50%) rotate(-135deg);
