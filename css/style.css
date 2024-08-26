@@ -255,7 +255,36 @@ button:hover{
     justify-content: space-between;
     color: #b1b1d2;
 }
-
+.burger{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.bord{
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    padding: 2px;
+    background-color: #1f1f70;
+    border-radius: 3px;
+}
+.bord::before,
+.bord::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 30px;
+    padding: 2px;
+    background-color: #1f1f70;
+    border-radius: 3px;
+}
+.bord::before{
+    top: -8px;
+}
+.bord::after{
+    bottom: -8px;
+}
 .text-navigation a {
     font-size: 14px;
     letter-spacing: 2px;
