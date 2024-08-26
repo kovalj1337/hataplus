@@ -43,12 +43,15 @@ sup {
 
 h1 {
     margin: 0px;
-    font-size: 30px;
+    font-size: 29px;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
+    margin-bottom: 10px;
 }
-
+aside{
+    width: 100%;
+}
 hr {
     border: none;
     border-top: 1px solid #e4e4ec;
@@ -70,7 +73,8 @@ h3 {
     line-height: 1.7em;
     color: #1f1f56;
     font-weight: bold;
-    margin: 15px 0px 9px;
+    /* margin: 15px 0px 9px; */
+    margin: 0px 0px 3px;
 }
 
 h3:hover {
@@ -233,6 +237,7 @@ button:hover{
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .display-flex {
@@ -329,7 +334,7 @@ button:hover{
 }
 
 a.facebook {
-    width: 11px;
+    width: 11px;    
     height: 19px;
     background-position: -2px -2px;
     transition: all .3s ease;
@@ -384,7 +389,8 @@ a.instagram:hover {
     content: "";
     position: absolute;
     top: 0;
-    left: -30px;
+    /* left: -30px; */
+    left: -20px;
     background: url(../image/niki.png) no-repeat;
 }
 
@@ -407,8 +413,11 @@ a.instagram:hover {
 }
 
 .contacts-header {
-    padding: 36px 0px 34px;
+    padding: 36px 15px 34px;
     align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: center;
 }
 
 .contacts a {
@@ -429,15 +438,6 @@ a.instagram:hover {
     padding-left: 30px;
 }
 
-.border:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -30px;
-    width: 1px;
-    height: 51px;
-    background-color: #ccc;
-}
 
 .email {
     text-decoration: underline;
@@ -466,15 +466,18 @@ a.instagram:hover {
     background-color: #fd8300;
 }
 .main {
-    padding: 42px 0 46px;
+    padding: 42px 15px 46px;
     column-gap: 27px;
+    flex-wrap: wrap-reverse;
 }
 
 .main-text p {
+    width: 100%;
+    flex-wrap: nowrap;
     font-size: 14px;
     line-height: 1.7em;
     color: #666666;
-    margin: 20px 0px
+    margin: 0px 0px 20px
 }
 .main-text p:last-child{
     padding-bottom: 13px;
@@ -497,6 +500,9 @@ a.instagram:hover {
 }
 .house{
     position: relative;
+    background-color: #e4e4ec;
+    border-radius: 5px;
+    padding: 10px;
 }
 .house a{
     position: absolute;
@@ -517,13 +523,19 @@ a.instagram:hover {
     width: 100%;
     object-fit: cover;
 }
-
+.projects{
+        text-align: center;
+}
 .gapforhouse {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     column-gap: 24px;
+    row-gap: 10px;
 }
 
 .aside-menu {
-    min-width: 220px;
+    margin-bottom: 25px;
     position: sticky;
     top: 55px;
     width: 100%;
@@ -591,7 +603,6 @@ a.instagram:hover {
     background-color: #e4e4ec;
     border: none;
 }
-
 .side-bar li:hover .sub-menu {
     visibility: visible;
     max-height: 1000px;
@@ -620,7 +631,10 @@ a.instagram:hover {
 }
 
 .bottom-contacts {
-    padding: 42px 0px 29px;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 42px 20px 29px;
 }
 
 .footer-bottom {
@@ -787,3 +801,27 @@ div.submit-form{
     column-gap: 29px;
     justify-content: flex-start;
 }
+@media screen and (min-width: 768px) {
+    html{
+        font-size: 1px;
+    }
+    .topline{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .main{
+        flex-wrap: nowrap;
+    }
+    .aside-menu{
+        min-width: 220px;
+    }
+    .border:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -30px;
+        width: 1px;
+        height: 51px;
+        background-color: #ccc;
+    }
+}   
