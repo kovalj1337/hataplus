@@ -865,4 +865,32 @@ div.submit-form{
         height: 51px;
         background-color: #ccc;
     }
+    .contacts-header{
+        justify-content: space-between;
+    }
+    .house{
+        background: transparent;
+        border-radius: 0;
+        padding: 0;
+    }
+    .projects{
+       text-align: left;
+    }
+    .gapforhouse{
+        flex-direction:row;
+    }
+    .bottom-contacts{
+        justify-content:space-between;
+    }
+    .burger{
+        display: none;
+    }
+    .text-navigation{
+        display: flex;
+    }
+    .mobile-menu{
+        position:unset;
+        height: 0;
+        justify-content:left;
+    }
 }   
