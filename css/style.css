@@ -84,7 +84,8 @@ table{
     overflow: hidden;
     border-radius: 3px;
     width: 100%;
-    border-collapse:collapse
+    border-collapse:collapse;
+
 }
 header{
     box-shadow: 0 0 7px 5px rgba(0,0,0,0.1);
@@ -165,6 +166,10 @@ button:hover{
     background-color: #ffffff;
     border: 2px solid #fd8300;
 }
+.table{
+    max-width: 300px;
+    overflow-x: scroll;
+}
 .popup{
     display: none;
     position: fixed;
@@ -181,6 +186,9 @@ button:hover{
     border-radius: 3px;
     z-index: 5;
 }
+.popup span{
+    z-index: 5;
+}
 .popup > div{
     width: 100%;
 }
@@ -193,7 +201,7 @@ button:hover{
     left: 0;
     background-color: #000;
     opacity: 0.8;
-    z-index: 4;
+    z-index: 1;
 }
 .popup input{
     margin-bottom: 10px;
@@ -225,7 +233,7 @@ button:hover{
     background-color: #fd8300;
 }
 .topline {
-    padding: 15.5px 0;
+    padding: 14.5px 0;
     color: #b1b1d2;
     background-color: #1f1f56;
     position: fixed;
@@ -233,15 +241,24 @@ button:hover{
     z-index: 3;
     top: 0;
 }
-.mobile-menu{
-    padding: 20px;
+ul.mobile-menu{
+    background-color: #1f1f56;
+    padding: 40px 20px 20px 20px;
     display: block;
-    position: relative;
+    position: absolute;
     top: 0;
     left: -100%;
     width: 80%;
     height: 100vh;
     transition: all 1s ease;
+}
+.mobile-menu li{
+    padding: 10px;
+}
+.cancel-burger{
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 .wrapper {
     max-width: 960px;
@@ -293,9 +310,6 @@ button:hover{
 }
 .bord::after{
     bottom: -8px;
-}
-.text-navigation{
-    display: none;
 }
 .text-navigation a {
     font-size: 14px;
@@ -573,6 +587,7 @@ a.instagram:hover {
     align-items: center;
     column-gap: 24px;
     row-gap: 10px;
+    margin-bottom: 20px;
 }
 
 .aside-menu {
@@ -690,11 +705,13 @@ a.instagram:hover {
     padding: 18px 0px 15px;
 }
 .main-first p{
+    text-align: center;
     font-size: 14px;
     line-height: 24px;
     color: #666666;
 }
 .main-first h1{
+    text-align: center;
     padding-bottom: 22px;
 }
 .main-first{
@@ -717,15 +734,24 @@ a.instagram:hover {
 .contacts-second{
     justify-content: flex-start;
     column-gap: 88px;
+    flex-direction: column;
+}
+.contacts-second {
+    margin-bottom: 10px;
 }
 .contacts-second div:nth-child(2){
     width: 188px;
 }
 .contacts-title{
     padding: 41px 0 27px;
+    text-align: center;
 }
 .hr-second{
     margin: 35px 0;
+}
+.map-zvyzok{
+    flex-wrap: wrap;
+    align-items: center;
 }
 .contacts-second a{
     color: #25252c;
@@ -765,6 +791,7 @@ a.instagram:hover {
     max-width: 466px;
     position: relative;
     top: -1px;
+    min-height: 300px;
 }
 .zvyazok{
     width: 100%;
@@ -888,9 +915,39 @@ div.submit-form{
     .text-navigation{
         display: flex;
     }
-    .mobile-menu{
-        position:unset;
+    ul.mobile-menu{
+        align-items: center;
+        padding: 20px;
+        display: flex;
+        position:static;
         height: 0;
         justify-content:left;
+    }
+    .black{
+        z-index: 4;
+    }
+    .contacts-title{
+        text-align: start;
+    }
+    .contacts-second{
+        flex-direction: row;
+    }
+    .map-zvyzok{
+        wrap: nowrap;
+        margin-bottom: 44px;
+    }
+    .main-first h1{
+        text-align: left;
+    }
+    .main-first p{
+        text-align: left;
+    }
+    .main-first a{
+        font-size: 14px;
+        line-height: 1.7emg;
+    }
+    .table{
+        max-width:none;
+        overflow: auto;
     }
 }   
