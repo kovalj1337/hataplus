@@ -473,6 +473,7 @@ a.instagram:hover {
     flex-wrap: wrap;
     row-gap: 20px;
     justify-content: center;
+    max-width: 200px;
 }
 
 .contacts a {
@@ -510,7 +511,7 @@ a.instagram:hover {
     color: #25252c;
     font-weight: bold;
     display: inline-block;
-    padding: 12px 28px;
+    padding: 12px 26px;
     border-radius: 25px;
     background-color: #ffffff;
     border: 2px solid #fd8300;
@@ -869,7 +870,17 @@ div.submit-form{
     column-gap: 29px;
     justify-content: flex-start;
 }
+@media screen and (min-width: 416px){
+    .contacts-header{
+        max-width: none;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
 @media screen and (min-width: 768px) {
+    header{
+        width: 100%;
+    }
     html{
         font-size: 1px;
     }
@@ -894,6 +905,10 @@ div.submit-form{
     }
     .contacts-header{
         justify-content: space-between;
+        max-width: 400px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
     }
     .house{
         background: transparent;
@@ -944,10 +959,10 @@ div.submit-form{
     }
     .main-first a{
         font-size: 14px;
-        line-height: 1.7emg;
+        line-height: 1.7em;
     }
     .table{
         max-width:none;
         overflow: auto;
     }
-}   
+}  
