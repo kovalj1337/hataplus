@@ -167,7 +167,7 @@ button:hover{
     border: 2px solid #fd8300;
 }
 .table{
-    max-width: 300px;
+    max-width: 800px;
     overflow-x: scroll;
 }
 .popup{
@@ -252,9 +252,9 @@ ul.mobile-menu{
     height: 100vh;
     transition: all 1s ease;
 }
-.mobile-menu li{
+/* .mobile-menu li{
     padding: 10px;
-}
+} */
 .cancel-burger{
     position: absolute;
     right: 20px;
@@ -468,6 +468,7 @@ a.instagram:hover {
 }
 
 .contacts-header {
+    max-width:1000px;
     padding: 36px 15px 34px;
     align-items: center;
     flex-wrap: wrap;
@@ -583,7 +584,7 @@ a.instagram:hover {
         text-align: center;
 }
 .gapforhouse {
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     column-gap: 24px;
@@ -733,9 +734,10 @@ a.instagram:hover {
     padding-top: 24px;
 }
 .contacts-second{
-    justify-content: flex-start;
+    justify-content: center;
     column-gap: 88px;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .contacts-second {
     margin-bottom: 10px;
@@ -751,6 +753,7 @@ a.instagram:hover {
     margin: 35px 0;
 }
 .map-zvyzok{
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -877,22 +880,44 @@ div.submit-form{
         flex-direction: column;
     }
 }
-@media screen and (min-width: 768px) {
-    header{
-        width: 100%;
-    }
-    html{
-        font-size: 1px;
-    }
-    .topline{
-        flex-wrap: nowrap;
-        justify-content: space-between;
+@media screen and (min-width: 1024px){
+    .contacts-title{
+        text-align: start;
+        justify-content: flex-start;
     }
     .main{
         flex-wrap: nowrap;
     }
+    .contacts-header{
+        max-width: 1000px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .mobile-menu li{
+        padding: 10px;
+    }
+    .gapforhouse{
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 768px) {
+    header{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    html{
+        font-size: 1px;
+    }
+    footer{
+        width: 100%;
+    }
+    .topline{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     .aside-menu{
         min-width: 220px;
+        /* max-width: 300px; */
     }
     .border:before {
         content: "";
@@ -904,10 +929,9 @@ div.submit-form{
         background-color: #ccc;
     }
     .contacts-header{
-        justify-content: space-between;
-        max-width: 400px;
+        max-width: 1000px;
         flex-wrap: wrap;
-        flex-direction: row;
+        column-gap: 50px;
         width: 100%;
     }
     .house{
@@ -920,6 +944,7 @@ div.submit-form{
     }
     .gapforhouse{
         flex-direction:row;
+        /* flex-wrap: nowrap; */
     }
     .bottom-contacts{
         justify-content:space-between;
@@ -941,13 +966,11 @@ div.submit-form{
     .black{
         z-index: 4;
     }
-    .contacts-title{
-        text-align: start;
-    }
     .contacts-second{
         flex-direction: row;
     }
     .map-zvyzok{
+        /* justify-content: center; */
         wrap: nowrap;
         margin-bottom: 44px;
     }
