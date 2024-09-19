@@ -17,8 +17,11 @@
     font-style: normal;
     font-display: swap;
 }
+html{
+    font-size: 0.7px;
+}
 main{
-    padding-bottom: 46px;
+    padding-bottom: 46rem;
 }
 body {
     margin: 0;
@@ -38,43 +41,43 @@ p {
 }
 
 sup {
-    font-size: 12px;
+    font-size: 12rem;
 }
 
 h1 {
-    margin: 0px;
-    font-size: 29px;
+    margin: 0rem;
+    font-size: 29rem;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 aside{
     width: 100%;
 }
 hr {
     border: none;
-    border-top: 1px solid #e4e4ec;
+    border-top: 1rem solid #e4e4ec;
 }
 
 h2 {
-    padding-top: 23px;
-    margin: 0px;
-    font-size: 24px;
+    padding-top: 23rem;
+    margin: 0rem;
+    font-size: 24rem;
     line-height: 1em;
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
-    margin-bottom: 24px;
+    margin-bottom: 24rem;
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.7em;
     color: #1f1f56;
     font-weight: bold;
-    /* margin: 15px 0px 9px; */
-    margin: 0px 0px 3px;
+    /* margin: 15rem 0rem 9rem; */
+    margin: 0rem 0rem 3rem;
 }
 
 h3:hover {
@@ -82,35 +85,35 @@ h3:hover {
 }
 table{
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 3rem;
     width: 100%;
     border-collapse:collapse;
 
 }
 header{
-    box-shadow: 0 0 7px 5px rgba(0,0,0,0.1);
-    padding-top: 55px;
+    box-shadow: 0 0 7rem 5rem rgba(0,0,0,0.1);
+    padding-top: 55rem;
 }
 thead{
     background-color: #1f1f56;
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.7em;
     color: #ffffff;
 }
 tbody{
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.7em;
     background-color: #e4e4ec;
     color: #666666;
 }
 th{
-    padding: 19px 20px 13px 21px;
+    padding: 19rem 20rem 13rem 21rem;
 }
 td{
-    padding: 16px 19px 15px 21px;
+    padding: 16rem 19rem 15rem 21rem;
 }
 td{
-    border-top: 1px solid #cecedd;
+    border-top: 1rem solid #cecedd;
 }
 th:first-child{
     text-align: left;
@@ -128,13 +131,13 @@ td:last-child{
     text-align: left;
 }
 tbody > tr > td:first-child{
-    padding-right: 110px;
+    padding-right: 110rem;
 }
 input,
 textarea{
     width: 100%;
-    border: 1px solid #c5c5d4;
-    padding: 16px 16px 15px 16px;
+    border: 1rem solid #c5c5d4;
+    padding: 16rem 16rem 15rem 16rem;
     outline: none;
     text-align: left;
     box-sizing: border-box;
@@ -152,11 +155,11 @@ textarea{
     max-height: 200px ;
 }
 button{
-    font-size: 14px;
+    font-size: 14rem;
     color: #ffffff;
     border: none;
-    padding: 13px 34px;
-    border-radius: 21px;
+    padding: 13rem 34rem;
+    border-radius: 21rem;
     background-color: #fd8300;
     transition: all 1s ease;
 }
@@ -164,7 +167,7 @@ button:hover{
     color: #24242b;
     cursor: pointer;
     background-color: #ffffff;
-    border: 2px solid #fd8300;
+    border: 2rem solid #fd8300;
 }
 .table{
     max-width: 800px;
@@ -180,10 +183,10 @@ button:hover{
     height: 100%;
     max-width: 321px;
     max-height: 269px;
-    padding: 30px;
+    padding: 30rem;
     box-sizing: border-box;
     background-color: #fff;
-    border-radius: 3px;
+    border-radius: 3rem;
     z-index: 5;
 }
 .popup span{
@@ -204,11 +207,11 @@ button:hover{
     z-index: 1;
 }
 .popup input{
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
     display: block;
     width: 100%;
     outline: none;
-    padding: 5px;
+    padding: 5rem;
     box-sizing: border-box;
 }
 .popup button,
@@ -217,15 +220,15 @@ button:hover{
     display: block;
     width: 100%;
     border: none;
-    border-radius: 21px;
-    padding: 13px 0;
+    border-radius: 21rem;
+    padding: 13rem 0;
     color: #fff;
     background-color: #fd8300;
 }
 .popup span{
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 20rem;
+    right: 20rem;
     cursor: pointer;
 }
 .table-hover tr:hover{
@@ -233,7 +236,7 @@ button:hover{
     background-color: #fd8300;
 }
 .topline {
-    padding: 14.5px 0;
+    padding: 14.5rem 0;
     color: #b1b1d2;
     background-color: #1f1f56;
     position: fixed;
@@ -243,7 +246,7 @@ button:hover{
 }
 ul.mobile-menu{
     background-color: #1f1f56;
-    padding: 40px 20px 20px 20px;
+    padding: 40rem 20rem 20rem 20rem;
     display: block;
     position: absolute;
     top: 0;
@@ -253,17 +256,17 @@ ul.mobile-menu{
     transition: all 1s ease;
 }
 /* .mobile-menu li{
-    padding: 10px;
+    padding: 10rem;
 } */
 .cancel-burger{
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 20rem;
+    top: 20rem;
 }
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15rem;
 }
 
 .display-flex {
@@ -283,16 +286,16 @@ ul.mobile-menu{
 }
 .burger{
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 20rem;
+    right: 20rem;
 }
 .bord{
     position: relative;
     display: inline-block;
     width: 30px;
-    padding: 2px;
+    padding: 2rem;
     background-color: #5454c4;
-    border-radius: 3px;
+    border-radius: 3rem;
 }
 .bord::before,
 .bord::after{
@@ -301,28 +304,28 @@ ul.mobile-menu{
     position: absolute;
     left: 0;
     width: 30px;
-    padding: 2px;
+    padding: 2rem;
     background-color: #5454c4;
-    border-radius: 3px;
+    border-radius: 3rem;
 }
 .bord::before{
-    top: -8px;
+    top: -8rem;
 }
 .bord::after{
-    bottom: -8px;
+    bottom: -8rem;
 }
 .text-navigation a {
-    font-size: 14px;
-    letter-spacing: 2px;
-    line-height: 24px;
+    font-size: 14rem;
+    letter-spacing: 2rem;
+    line-height: 24rem;
     color: #b1b1d2;
     transition: all .3s ease;
 }
 
 .text-navigation li:hover>a {
-    font-size: 14px;
-    letter-spacing: 2px;
-    line-height: 24px;
+    font-size: 14rem;
+    letter-spacing: 2rem;
+    line-height: 24rem;
     color: #fd8300;
 }
 
@@ -330,7 +333,7 @@ ul.mobile-menu{
     background: url(../image/image.webp) no-repeat center/cover;
     background-color: #24242b;
     width: 100%;
-    padding: 60px 0px 44px
+    padding: 60rem 0rem 44rem
 }
 
 .proposition-info {
@@ -340,8 +343,8 @@ ul.mobile-menu{
 }
 
 .proposition-one {
-    font-size: 30px;
-    letter-spacing: 2px;
+    font-size: 30rem;
+    letter-spacing: 2rem;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
@@ -350,7 +353,7 @@ ul.mobile-menu{
 }
 
 .price {
-    font-size: 24px;
+    font-size: 24rem;
     line-height: 1em;
     color: #fd8300;
     font-weight: bold;
@@ -358,21 +361,21 @@ ul.mobile-menu{
 }
 
 .price b {
-    font-size: 40px;
+    font-size: 40rem;
 }
 
 .descript-proposition {
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.7em;
     color: #ffffff;
     text-align: center;
-    margin: 10px 0px;
+    margin: 10rem 0rem;
 }
 
 .socialki,
 .text-navigation,
 .socialkidva {
-    column-gap: 25px;
+    column-gap: 25rem;
 }
 .socialki{
     align-items: center;
@@ -435,7 +438,7 @@ a.instagram:hover {
 
 .contacts p:first-child,
 .masenger p:first-child {
-    margin-bottom: 5px;
+    margin-bottom: 5rem;
 }
 
 .phone::before,
@@ -444,8 +447,8 @@ a.instagram:hover {
     content: "";
     position: absolute;
     top: 0;
-    /* left: -30px; */
-    left: -20px;
+    /* left: -30rem; */
+    left: -20rem;
     background: url(../image/niki.png) no-repeat;
 }
 
@@ -468,31 +471,31 @@ a.instagram:hover {
 }
 
 .contacts-header {
-    max-width:1000px;
-    padding: 36px 15px 34px;
+    max-width:1000rem;
+    padding: 36rem 15rem 34rem;
     align-items: center;
     flex-wrap: wrap;
-    row-gap: 20px;
+    row-gap: 20rem;
     justify-content: center;
-    max-width: 200px;
+    max-width: 200rem;
 }
 
 .contacts a {
-    font-size: 18px;
+    font-size: 18rem;
     line-height: 1.3em;
     color: #25252c;
     font-weight: bold;
 }
 
 .masenger a {
-    font-size: 16px;
+    font-size: 16rem;
     line-height: 1.5em;
     color: #25252c;
 }
 
 .border {
     position: relative;
-    padding-left: 30px;
+    padding-left: 30rem;
 }
 
 
@@ -507,15 +510,15 @@ a.instagram:hover {
 }
 
 .btm a {
-    font-size: 16px;
+    font-size: 16rem;
     line-height: 1.5em;
     color: #25252c;
     font-weight: bold;
     display: inline-block;
-    padding: 12px 26px;
-    border-radius: 25px;
+    padding: 12rem 26rem;
+    border-radius: 25rem;
     background-color: #ffffff;
-    border: 2px solid #fd8300;
+    border: 2rem solid #fd8300;
     transition: all 1s ease;
 }
 .btm a:hover{
@@ -523,26 +526,26 @@ a.instagram:hover {
     background-color: #fd8300;
 }
 .main {
-    padding: 42px 15px 46px;
-    column-gap: 27px;
+    padding: 42rem 15rem 46rem;
+    column-gap: 27rem;
     flex-wrap: wrap-reverse;
 }
 
 .main-text p {
     width: 100%;
     flex-wrap: nowrap;
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.7em;
     color: #666666;
-    margin: 0px 0px 20px
+    margin: 0rem 0rem 20rem
 }
 .main-text p:last-child{
-    padding-bottom: 13px;
+    padding-bottom: 13rem;
 }
 
 .main-text a {
-    margin: 5px 0px 33px 0px;
-    font-size: 14px;
+    margin: 5rem 0rem 33rem 0rem;
+    font-size: 14rem;
     line-height: 1.7em;
     text-decoration: underline;
     color: #fd8300;
@@ -558,8 +561,8 @@ a.instagram:hover {
 .house{
     position: relative;
     background-color: #e4e4ec;
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 5rem;
+    padding: 10rem;
 }
 .house a{
     position: absolute;
@@ -571,7 +574,7 @@ a.instagram:hover {
     text-decoration: underline;
 }
 .house p {
-    font-size: 13px;
+    font-size: 13rem;
     line-height: 1.3em;
     color: #9999a6;
 }
@@ -587,37 +590,37 @@ a.instagram:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    column-gap: 24px;
-    row-gap: 10px;
-    margin-bottom: 20px;
+    column-gap: 24rem;
+    row-gap: 10rem;
+    margin-bottom: 20rem;
 }
 
 .aside-menu {
-    margin-bottom: 25px;
+    margin-bottom: 25rem;
     position: sticky;
-    top: 55px;
+    top: 55rem;
     width: 100%;
-    border-radius: 3px;
+    border-radius: 3rem;
     overflow: hidden;
 }
 
 .head-menu {
-    font-size: 16px;
+    font-size: 16rem;
     line-height: 1.5em;
     color: #ffffff;
     font-weight: 700;
     font-family: "Roboto Slab";
     background-color: #1f1f56;
-    padding: 12px 16px;
+    padding: 12rem 16rem;
 }
 .aside-menu-a {
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.7em;
     color: #25252c;
     display: block;
     background-color: #e4e4ec;
-    padding: 11px 16px;
-    border-top: 1px solid #cdcddd;
+    padding: 11rem 16rem;
+    border-top: 1rem solid #cdcddd;
     position: relative;
 }
 
@@ -628,20 +631,20 @@ a.instagram:hover {
     right: 15px;
     width: 8px;
     height: 8px;
-    border-bottom: 1px solid #666666;
-    border-left: 1px solid #666666;
+    border-bottom: 1rem solid #666666;
+    border-left: 1rem solid #666666;
     transform: translateY(-50%) rotate(-135deg);
     transition: all 1s ease;
 }
 
 .aside-menu-a:hover::after {
-    border-bottom: 2px solid #ffffff;
-    border-left: 2px solid #ffffff;
+    border-bottom: 2rem solid #ffffff;
+    border-left: 2rem solid #ffffff;
     transform: translateY(-50%) rotate(-45deg);
 }
 
 .aside-menu-a:hover {
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.7em;
     color: #ffffff;
     background-color: #fd8300;
@@ -654,8 +657,8 @@ a.instagram:hover {
 
 .sub-menu a {
     display: block;
-    padding: 11px 31px;
-    font-size: 14px;
+    padding: 11rem 31rem;
+    font-size: 14rem;
     line-height: 1.7em;
     color: #666666;
     background-color: #e4e4ec;
@@ -663,7 +666,7 @@ a.instagram:hover {
 }
 .side-bar li:hover .sub-menu {
     visibility: visible;
-    max-height: 1000px;
+    max-height: 1000rem;
     transition: max-height 3s ease;
 }
 
@@ -677,7 +680,7 @@ a.instagram:hover {
 }
 
 .information a {
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.8em;
     color: #666666;
     transition: all 1s ease;
@@ -689,10 +692,10 @@ a.instagram:hover {
 }
 
 .bottom-contacts {
-    gap: 20px;
+    gap: 20rem;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 42px 20px 29px;
+    padding: 42rem 20rem 29rem;
 }
 
 .footer-bottom {
@@ -701,27 +704,27 @@ a.instagram:hover {
 
 .footer-bottom>p {
     text-align: center;
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 13rem;
+    line-height: 18rem;
     color: #9999a6;
-    padding: 18px 0px 15px;
+    padding: 18rem 0rem 15rem;
 }
 .main-first p{
     text-align: center;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 14rem;
+    line-height: 24rem;
     color: #666666;
 }
 .main-first h1{
     text-align: center;
-    padding-bottom: 22px;
+    padding-bottom: 22rem;
 }
 .main-first{
-    padding: 40px 0px 26px;
+    padding: 40rem 0rem 26rem;
 }
 .main-first a{
     display: inline-block;
-    padding-top: 24px;
+    padding-top: 24rem;
     font-weight: bold;
     text-decoration: underline;
     color: #fd8300;
@@ -731,26 +734,26 @@ a.instagram:hover {
     color: #24242b;
 }
 .hr{
-    padding-top: 24px;
+    padding-top: 24rem;
 }
 .contacts-second{
     justify-content: center;
-    column-gap: 88px;
+    column-gap: 88rem;
     flex-direction: column;
     flex-wrap: wrap;
 }
 .contacts-second {
-    margin-bottom: 10px;
+    margin-bottom: 10rem;
 }
 .contacts-second div:nth-child(2){
     width: 188px;
 }
 .contacts-title{
-    padding: 41px 0 27px;
+    padding: 41rem 0 27rem;
     text-align: center;
 }
 .hr-second{
-    margin: 35px 0;
+    margin: 35rem 0;
 }
 .map-zvyzok{
     justify-content: center;
@@ -767,15 +770,15 @@ a.instagram:hover {
     text-decoration: underline;
 }
 .contacts-second p{
-    padding-top: 11px;
-    font-size: 14px;
+    padding-top: 11rem;
+    font-size: 14rem;
     line-height: 1.5em;
     color: #666666;
 }
 .contacts-second div p:first-child{
-    margin-bottom: 5px;
+    margin-bottom: 5rem;
     padding: 0;
-    font-size: 14px;
+    font-size: 14rem;
     line-height: 1.5em;
     color: #24242b;
     font-weight: 700;
@@ -789,7 +792,7 @@ a.instagram:hover {
     left: -2px;
 }
 .map{
-    margin-right: 27px;
+    margin-right: 27rem;
     width: 100%;
     overflow: hidden;
     max-width: 466px;
@@ -802,14 +805,14 @@ a.instagram:hover {
     max-width: 467px;
 }
 .zvyazok > div{
-    margin-bottom: 9px;
+    margin-bottom: 9rem;
 }
 .zvyazok input,
 .zvyazok textarea{
-    border-radius: 3px;
+    border-radius: 3rem;
 }
 .zvyazok-first{
-    column-gap: 9px;
+    column-gap: 9rem;
 }
 .zvyazok-first div{
     width: 100%;
@@ -821,17 +824,17 @@ a.instagram:hover {
 }
 .zvyazok h2{
     padding: 0;
-    margin-bottom: 20px;
-    font-size: 14px;
+    margin-bottom: 20rem;
+    font-size: 14rem;
     line-height: 1.7em;
 }
 .news input{
     display: none;
 }
 .news{
-    column-gap: 10px;
+    column-gap: 10rem;
     align-items: center;
-    font-size: 13px;
+    font-size: 13rem;
     line-height: 1.7em;
     color: #666666;
 }
@@ -849,13 +852,13 @@ a.instagram:hover {
     height: 15px;
     top: 0;
     left: 0;
-    border: 1px solid #c5c5d4;
-    border-radius: 3px;
+    border: 1rem solid #c5c5d4;
+    border-radius: 3rem;
 }
 .news input:checked + label::before {
     content: "";
-    border: 1px solid #c5c5d4;
-    border-radius: 3px;
+    border: 1rem solid #c5c5d4;
+    border-radius: 3rem;
 }
 .news input:checked + label::after {
     content: "";
@@ -864,13 +867,13 @@ a.instagram:hover {
     left: 9px;
     width: 5px;
     height: 8px;
-    border-top: 2px solid #1f1f56;
-    border-left: 2px solid #1f1f56;
+    border-top: 2rem solid #1f1f56;
+    border-left: 2rem solid #1f1f56;
     transform: translateX(-50%) rotate(-135deg);
 }
 div.submit-form{
     margin-bottom: 0;
-    column-gap: 29px;
+    column-gap: 29rem;
     justify-content: flex-start;
 }
 @media screen and (min-width: 416px){
@@ -881,6 +884,9 @@ div.submit-form{
     }
 }
 @media screen and (min-width: 1024px){
+    html{
+        font-size: 1.0px;
+    }
     .contacts-title{
         text-align: start;
         justify-content: flex-start;
@@ -889,12 +895,12 @@ div.submit-form{
         flex-wrap: nowrap;
     }
     .contacts-header{
-        max-width: 1000px;
+        max-width: 1000rem;
         flex-wrap: wrap;
         flex-direction: row;
     }
     .mobile-menu li{
-        padding: 10px;
+        padding: 10rem;
     }
     .gapforhouse{
         flex-wrap: nowrap;
@@ -931,7 +937,7 @@ div.submit-form{
     .contacts-header{
         max-width: 1000px;
         flex-wrap: wrap;
-        column-gap: 50px;
+        column-gap: 50rem;
         width: 100%;
     }
     .house{
@@ -940,7 +946,7 @@ div.submit-form{
         padding: 0;
     }
     .projects{
-       text-align: left;
+        text-align: left;
     }
     .gapforhouse{
         flex-direction:row;
@@ -957,7 +963,7 @@ div.submit-form{
     }
     ul.mobile-menu{
         align-items: center;
-        padding: 20px;
+        padding: 20rem;
         display: flex;
         position:static;
         height: 0;
@@ -972,7 +978,7 @@ div.submit-form{
     .map-zvyzok{
         /* justify-content: center; */
         wrap: nowrap;
-        margin-bottom: 44px;
+        margin-bottom: 44rem;
     }
     .main-first h1{
         text-align: left;
@@ -981,7 +987,7 @@ div.submit-form{
         text-align: left;
     }
     .main-first a{
-        font-size: 14px;
+        font-size: 14rem;
         line-height: 1.7em;
     }
     .table{
@@ -989,3 +995,8 @@ div.submit-form{
         overflow: auto;
     }
 }  
+    @media screen and (min-width: 1440px) {
+        html{
+            font-size: 1.5px;
+        }
+    }
