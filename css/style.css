@@ -259,6 +259,7 @@ ul.mobile-menu{
     padding: 10rem;
 } */
 .cancel-burger{
+    font-size: 10px;
     position: absolute;
     right: 20rem;
     top: 20rem;
@@ -286,7 +287,7 @@ ul.mobile-menu{
 }
 .burger{
     position: absolute;
-    top: 20rem;
+    top: 27rem;
     right: 20rem;
 }
 .bord{
@@ -315,9 +316,9 @@ ul.mobile-menu{
     bottom: -8rem;
 }
 .text-navigation a {
-    font-size: 14rem;
+    font-size: 25rem;
     letter-spacing: 2rem;
-    line-height: 24rem;
+    line-height: 40rem;
     color: #b1b1d2;
     transition: all .3s ease;
 }
@@ -447,8 +448,8 @@ a.instagram:hover {
     content: "";
     position: absolute;
     top: 0;
-    /* left: -30rem; */
-    left: -20rem;
+    left: -30rem;
+    /* left: -20rem; */
     background: url(../image/niki.png) no-repeat;
 }
 
@@ -591,7 +592,7 @@ a.instagram:hover {
     justify-content: center;
     align-items: center;
     column-gap: 24rem;
-    row-gap: 10rem;
+    row-gap: 24rem;
     margin-bottom: 20rem;
 }
 
@@ -692,8 +693,10 @@ a.instagram:hover {
 }
 
 .bottom-contacts {
+    flex-direction: column;
     gap: 20rem;
     justify-content: center;
+    text-align: center;
     flex-wrap: wrap;
     padding: 42rem 20rem 29rem;
 }
@@ -720,9 +723,11 @@ a.instagram:hover {
     padding-bottom: 22rem;
 }
 .main-first{
+    text-align: center;
     padding: 40rem 0rem 26rem;
 }
 .main-first a{
+    font-size: 14rem;
     display: inline-block;
     padding-top: 24rem;
     font-weight: bold;
@@ -737,16 +742,13 @@ a.instagram:hover {
     padding-top: 24rem;
 }
 .contacts-second{
-    justify-content: center;
+    font-size: 20px;
+    text-align: center;
     column-gap: 88rem;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 .contacts-second {
     margin-bottom: 10rem;
-}
-.contacts-second div:nth-child(2){
-    width: 188px;
 }
 .contacts-title{
     padding: 41rem 0 27rem;
@@ -771,7 +773,7 @@ a.instagram:hover {
 }
 .contacts-second p{
     padding-top: 11rem;
-    font-size: 14rem;
+    font-size: 20rem;
     line-height: 1.5em;
     color: #666666;
 }
@@ -792,7 +794,7 @@ a.instagram:hover {
     left: -2px;
 }
 .map{
-    margin-right: 27rem;
+    margin-bottom: 10rem;
     width: 100%;
     overflow: hidden;
     max-width: 466px;
@@ -801,6 +803,7 @@ a.instagram:hover {
     min-height: 300px;
 }
 .zvyazok{
+    margin-bottom: 15rem;
     width: 100%;
     max-width: 467px;
 }
@@ -883,29 +886,6 @@ div.submit-form{
         flex-direction: column;
     }
 }
-@media screen and (min-width: 1024px){
-    html{
-        font-size: 1.0px;
-    }
-    .contacts-title{
-        text-align: start;
-        justify-content: flex-start;
-    }
-    .main{
-        flex-wrap: nowrap;
-    }
-    .contacts-header{
-        max-width: 1000rem;
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-    .mobile-menu li{
-        padding: 10rem;
-    }
-    .gapforhouse{
-        flex-wrap: nowrap;
-    }
-}
 @media screen and (min-width: 768px) {
     header{
         width: 100%;
@@ -925,20 +905,15 @@ div.submit-form{
         min-width: 220px;
         /* max-width: 300px; */
     }
-    .border:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: -30px;
-        width: 1px;
-        height: 51px;
-        background-color: #ccc;
-    }
     .contacts-header{
-        max-width: 1000px;
+        max-width: 700px;
         flex-wrap: wrap;
         column-gap: 50rem;
         width: 100%;
+    }
+    .text-navigation a{
+        font-size: 14rem;
+        line-height: 24rem;
     }
     .house{
         background: transparent;
@@ -951,9 +926,6 @@ div.submit-form{
     .gapforhouse{
         flex-direction:row;
         /* flex-wrap: nowrap; */
-    }
-    .bottom-contacts{
-        justify-content:space-between;
     }
     .burger{
         display: none;
@@ -971,9 +943,6 @@ div.submit-form{
     }
     .black{
         z-index: 4;
-    }
-    .contacts-second{
-        flex-direction: row;
     }
     .map-zvyzok{
         /* justify-content: center; */
@@ -994,9 +963,73 @@ div.submit-form{
         max-width:none;
         overflow: auto;
     }
+    .cancel-burger{
+        display: none;
+    }
+    
 }  
-    @media screen and (min-width: 1440px) {
-        html{
-            font-size: 1.5px;
-        }
+@media screen and (min-width: 1024px){
+    html{
+        font-size: 1.0px;
+    }
+    
+    .border:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -30px;
+        width: 1px;
+        height: 51px;
+        background-color: #ccc;
+    }
+    .contacts-title{
+        max-width: 960px;
+        text-align: start;
+        justify-content: flex-start;
+    }
+    .main{
+        flex-wrap: nowrap;
+    }
+    .contacts-header{
+        max-width: 960px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .mobile-menu li{
+        padding: 10rem;
+    }
+    .bottom-contacts{
+        justify-content:space-between;
+        flex-direction:row;
+        text-align:start;
+    }
+    .contacts-second{
+        flex-direction: row;
+    }
+    .contacts-second div:nth-child(2){
+        width: 188px;
+    }
+    .contacts-second p{
+        font-size: 14rem;
+    }
+    .gapforhouse{
+        flex-wrap: nowrap;
+    }
+    .map{
+        margin-right: 27rem;
+    }
+}
+@media screen and (min-width: 1921px) {
+    html{
+        font-size: 1.2px;
+    }
+    .wrapper{
+        max-width: 1440px;
+    }
+}
+@media screen and (min-width: 2560px) {
+    html{
+        font-size: 1.5px;
+    }
     }
