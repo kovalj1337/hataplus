@@ -175,6 +175,7 @@ table{
 .table{
     overflow: hidden;
     min-width: 800px;
+    max-width: 960px;
 }
 .popup{
     display: none;
