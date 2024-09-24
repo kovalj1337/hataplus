@@ -169,9 +169,12 @@ button:hover{
     background-color: #ffffff;
     border: 2rem solid #fd8300;
 }
-.table{
-    max-width: 800px;
+table{
     overflow-x: scroll;
+}
+.table{
+    overflow: hidden;
+    min-width: 800px;
 }
 .popup{
     display: none;
@@ -748,6 +751,7 @@ a.instagram:hover {
     flex-direction: column;
 }
 .contacts-second {
+    gap: 40rem;
     margin-bottom: 10rem;
 }
 .contacts-title{
@@ -780,7 +784,7 @@ a.instagram:hover {
 .contacts-second div p:first-child{
     margin-bottom: 5rem;
     padding: 0;
-    font-size: 14rem;
+    font-size: 26rem;
     line-height: 1.5em;
     color: #24242b;
     font-weight: 700;
@@ -794,7 +798,7 @@ a.instagram:hover {
     left: -2px;
 }
 .map{
-    margin-bottom: 10rem;
+    margin-bottom: 30rem;
     width: 100%;
     overflow: hidden;
     max-width: 466px;
@@ -803,7 +807,7 @@ a.instagram:hover {
     min-height: 300px;
 }
 .zvyazok{
-    margin-bottom: 15rem;
+    margin-bottom: 30rem;
     width: 100%;
     max-width: 467px;
 }
@@ -966,6 +970,10 @@ div.submit-form{
     .cancel-burger{
         display: none;
     }
+    .contacts-second p,
+    .contacts-second div p:first-child{
+        font-size: 14rem;
+    }
     
 }  
 @media screen and (min-width: 1024px){
@@ -1005,13 +1013,11 @@ div.submit-form{
         text-align:start;
     }
     .contacts-second{
+        text-align: left;
         flex-direction: row;
     }
     .contacts-second div:nth-child(2){
         width: 188px;
-    }
-    .contacts-second p{
-        font-size: 14rem;
     }
     .gapforhouse{
         flex-wrap: nowrap;
