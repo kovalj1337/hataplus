@@ -888,7 +888,7 @@ div.submit-form{
 @media screen and (min-width: 416px){
     .contacts-header{
         max-width: none;
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap; */
         flex-direction: column;
     }
 }
@@ -916,6 +916,11 @@ div.submit-form{
         flex-wrap: wrap;
         column-gap: 50rem;
         width: 100%;
+        flex-direction: row;
+    }
+    .bottom-contacts{
+        flex-direction: row;
+        justify-content: space-between;
     }
     .text-navigation a{
         font-size: 14rem;
