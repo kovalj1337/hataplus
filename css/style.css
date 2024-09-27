@@ -331,7 +331,7 @@ ul.mobile-menu{
 .text-navigation li:hover>a {
     font-size: 25rem;
     letter-spacing: 2rem;
-    line-height: 24rem;
+    line-height: 40rem;
     color: #fd8300;
 }
 
@@ -928,6 +928,7 @@ div.submit-form{
     }
     .text-navigation li:hover>a{
         font-size: 14rem;
+        line-height: 24rem;
     }
     .house{
         background: transparent;
@@ -979,6 +980,10 @@ div.submit-form{
     }
     .cancel-burger{
         display: none;
+    }
+    .contacts-second{
+        text-align: left;
+        flex-direction: row;
     }
     .contacts-second p,
     .contacts-second div p:first-child{
