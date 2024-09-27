@@ -264,7 +264,7 @@ ul.mobile-menu{
     padding: 10rem;
 } */
 .cancel-burger{
-    font-size: 10px;
+    font-size: 30px;
     position: absolute;
     right: 20rem;
     top: 20rem;
@@ -329,7 +329,7 @@ ul.mobile-menu{
 }
 
 .text-navigation li:hover>a {
-    font-size: 14rem;
+    font-size: 25rem;
     letter-spacing: 2rem;
     line-height: 24rem;
     color: #fd8300;
@@ -920,6 +920,9 @@ div.submit-form{
     .text-navigation a{
         font-size: 14rem;
         line-height: 24rem;
+    }
+    .text-navigation li:hover>a{
+        font-size: 14rem;
     }
     .house{
         background: transparent;
